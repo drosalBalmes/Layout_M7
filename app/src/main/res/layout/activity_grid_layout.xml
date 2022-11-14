@@ -8,7 +8,7 @@
         android:columnCount="3"
         android:orientation="horizontal">
 
-    <TextView android:layout_columnWeight="1" android:text="Celda 1.1" />
+    <TextView android:layout_columnWeight="1" android:text="GRID LAYOUT" />
     <TextView android:layout_columnWeight="1" android:text="Celda 1.2" />
     <TextView android:layout_columnWeight="1" android:text="Celda 1.3" />
     <ImageView

@@ -6,7 +6,7 @@
              android:gravity="center"
              android:stretchColumns="0,1,2">
     <TableRow>
-        <TextView android:text="Celda 1.1" />
+        <TextView android:text="TABLE LAYOUT" />
         <TextView android:text="Celda 1.2" />
         <TextView android:text="Celda 1.3" />
     </TableRow>
