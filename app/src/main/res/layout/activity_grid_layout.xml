@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:orientation="horizontal">
+
+    <TextView android:layout_columnWeight="1" android:text="Celda 1.1" />
+    <TextView android:layout_columnWeight="1" android:text="Celda 1.2" />
+    <TextView android:layout_columnWeight="1" android:text="Celda 1.3" />
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_columnWeight="1"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/one_piece_film_red"/>
+    <Button
+            android:id="@+id/button"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="toRelativeLayout"
+            android:layout_gravity="center"
+            android:onClick="toRelativeLayout"/>
+    <TextView android:layout_columnWeight="1" android:text="Celda 2.2" />
+
+    <TextView android:layout_columnWeight="1" android:text="Celda doble de ancho 3.1"
+          android:layout_columnSpan="2" />
+    <TextView android:layout_columnWeight="1" android:text="Celda 3.2" />
+</GridLayout>
