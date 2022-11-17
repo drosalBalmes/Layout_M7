@@ -4,6 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
+              android:background="@color/black"
               android:gravity="center">
     <ImageView
             android:id="@+id/imageView"
@@ -11,17 +12,29 @@
             android:layout_height="193dp"
             app:srcCompat="@drawable/one_piece_film_red"/>
 
-    <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="toTableLayout"
-            android:text="to_table_layout"/>
+    <ImageButton
+            android:id="@+id/buttonImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:background="@color/dark_blue"
+            android:contentDescription="AgendaButton"/>
 
 
     <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LINEAR LAYOUT"/>
+            android:text="LINEAR LAYOUT"
+            android:textColor="@color/white"
+            android:textSize="26sp"/>
+
+    <ImageButton
+            android:id="@+id/arrowbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@color/light_green"
+            android:src="@android:drawable/ic_media_ff"/>
 </LinearLayout>

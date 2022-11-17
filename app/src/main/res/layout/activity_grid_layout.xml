@@ -6,11 +6,20 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:rowCount="3"
         android:columnCount="3"
+        android:background="@color/black"
         android:orientation="horizontal">
 
-    <TextView android:layout_columnWeight="1" android:text="GRID LAYOUT" />
-    <TextView android:layout_columnWeight="1" android:text="Celda 1.2" />
-    <TextView android:layout_columnWeight="1" android:text="Celda 1.3" />
+    <TextView android:layout_columnWeight="1" android:text="GRID LAYOUT"
+              android:textColor="@color/white" android:textSize="22sp"/>
+    <ImageButton
+            android:id="@+id/arrowbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@color/light_green"
+            android:src="@android:drawable/ic_media_ff"/>
     <ImageView
             android:id="@+id/imageView"
             android:layout_columnWeight="1"
@@ -22,12 +31,16 @@
             android:layout_columnWeight="1"
             android:layout_width="wrap_content"
             android:layout_height="64dp"
-            android:text="toRelativeLayout"
+            android:text="roundButton"
             android:layout_gravity="center"
-            android:onClick="toRelativeLayout"/>
-    <TextView android:layout_columnWeight="1" android:text="Celda 2.2" />
+            android:backgroundTint="@color/blue"
+            app:cornerRadius="15dp"/>
+    <TextView android:layout_columnWeight="1" android:text="Celda 2.3"
+              android:textColor="@color/white" android:textSize="22sp"/>
 
     <TextView android:layout_columnWeight="1" android:text="Celda doble de ancho 3.1"
-          android:layout_columnSpan="2" />
-    <TextView android:layout_columnWeight="1" android:text="Celda 3.2" />
+              android:textColor="@color/white"
+          android:layout_columnSpan="2" android:textSize="22sp"/>
+    <TextView android:layout_columnWeight="1" android:text="Celda 3.2"
+              android:textColor="@color/white" android:textSize="22sp"/>
 </GridLayout>
