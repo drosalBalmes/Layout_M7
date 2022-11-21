@@ -14,6 +14,9 @@
             android:theme="@style/Theme.LayoutM7"
             tools:targetApi="31">
         <activity
+                android:name=".RadioCheck"
+                android:exported="false"/>
+        <activity
                 android:name=".twoLayouts"
                 android:exported="false"/>
         <activity
