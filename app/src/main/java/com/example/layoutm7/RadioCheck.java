@@ -1,8 +1,10 @@
 package com.example.layoutm7;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +26,9 @@ public class RadioCheck extends AppCompatActivity {
         rad1 = findViewById(R.id.rad1);
         rad2 = findViewById(R.id.rad2);
         text = findViewById(R.id.textView);
+
+        ImageButton btn = findViewById(R.id.arrowbtn);
+        btn.setOnClickListener(view -> startActivity(new Intent(RadioCheck.this, ControlTextView.class)));
 
 
         chkbox.setOnClickListener(arg0 -> {
