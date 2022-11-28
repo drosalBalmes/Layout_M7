@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Layout M7</string>
+
+    <string-array name="dgen">
+        <item>Masculí</item>
+        <item>Femení</item>
+        <item>Altres</item>
+    </string-array>
 </resources>
