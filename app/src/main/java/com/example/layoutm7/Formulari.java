@@ -22,6 +22,7 @@ public class Formulari extends AppCompatActivity {
     // array objects
     String[] courseList = {"C-Programming", "Data Structure", "Database", "Python",
             "Java", "Operating System", "Compiler Design", "Android Development"};
+    //intent.putExtra
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -47,6 +47,14 @@
             android:textColor="@color/pink"
             style="?android:attr/buttonBarButtonStyle"/>
 
+    <Button
+        android:id="@+id/recyclerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="300dp"
+        android:text="toRecycler"
+        android:textColor="@color/pink"/>
 
 </FrameLayout>
 
